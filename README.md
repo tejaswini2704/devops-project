@@ -21,15 +21,15 @@ It is part of a larger series of tasks showcasing DevOps automation and CI/CD im
 |--------|----------|
 | **main** | Stable, production-ready code |
 | **dev** | Integration and testing branch |
-| **feature/** | Feature-specific branches (e.g., `feature/login`, `feature/docker`) |
+| **feature/** | Feature-specific branches (e.g., `feature`) |
 
 Example commands:
 ```bash
 git checkout -b dev
 git push -u origin dev
 
-git checkout -b feature/docker
+git checkout -b feature
 git add .
-git commit -m "Added Docker support"
-git push -u origin feature/docker
+git commit -m "Added login feature script"
+git push -u origin feature
 
